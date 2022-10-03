@@ -1,0 +1,45 @@
+a.link-button {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+a.link-button .icon {
+  width: 2rem;
+  height: 2rem;
+  padding: 0.18rem;
+  background-color: var(--primary-color);
+  border: solid 0.06rem #fff;
+  background-clip: content-box;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.link-button .icon .play-icon {
+  border: solid 7px #fff;
+  width: 0;
+  height: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  margin-right: -7px;
+}
+
+a.link-button .label {
+  margin-left: 0.62rem;
+}
+
+.s-wrapper .s-main-content.s-links {
+  padding: 1.25rem;
+  padding-left: 0;
+}
+
+.s-wrapper .s-main-content .s-links ul {
+  display: flex;
+  flex-direction: row;
+}

@@ -6,9 +6,9 @@
 .pills ul li {
   background-color: var(--primary-color);
   color: #fff;
-  padding: 5px 15px;
-  margin: 0 10px;
-  border-radius: 20px;
+  padding: 0.31rem 1rem;
+  margin: 0 0.63rem;
+  border-radius: 1.25rem;
   text-transform: uppercase;
 }
 
